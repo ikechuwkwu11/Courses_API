@@ -28,75 +28,75 @@ This project is a Django REST Framework-based backend API designed for managing 
 - GET	/logout/	Logout user session
 
 ## 🎓 Courses
-- Add Course
+- Add Course:
 POST /api/courses/
-- Get All Courses
+- Get All Courses:
 GET /api/courses/
-- Get Single Course
+- Get Single Course:
 GET /api/courses/<course_id>/
-- Edit Course
+- Edit Course:
 PUT /api/courses/<course_id>/
-- Delete Course
+- Delete Course:
 DELETE /api/courses/<course_id>/
 
 ## 👨‍🏫 Teachers
-- Add Teacher
+- Add Teacher:
 POST /api/teachers/
-- Get All Teachers
+- Get All Teachers:
 GET /api/teachers/
-- Get Single Teacher
+- Get Single Teacher:
 GET /api/teachers/<teacher_id>/
-- Edit Teacher
+- Edit Teacher:
 PUT /api/teachers/<teacher_id>/
-- Delete Teacher
+- Delete Teacher:
 DELETE /api/teachers/<teacher_id>/
 
 ## 🧑‍🎓 Students
-- Add Student
+- Add Student:
 POST /api/students/
-- Get All Students
+- Get All Students:
 GET /api/students/
-- Get Single Student
+- Get Single Student:
 GET /api/students/<student_id>/
-- Edit Student
+- Edit Student:
 PUT /api/students/<student_id>/
-- Delete Student
+- Delete Student:
 DELETE /api/students/<student_id>/
 
 ## 📚 Enrollments
-- Add Enrollment
+- Add Enrollment:
 POST /api/enrollments/
-- Get All Enrollments
+- Get All Enrollments:
 GET /api/enrollments/
-- Get Single Enrollment
+- Get Single Enrollment:
 GET /api/enrollments/<enrollment_id>/
-- Edit Enrollment
+- Edit Enrollment:
 PUT /api/enrollments/<enrollment_id>/
-- Delete Enrollment
+- Delete Enrollment:
 DELETE /api/enrollments/<enrollment_id>/
 
 ## 📈 Progress
-- Add Progress
+- Add Progress:
 POST /api/progress/
-- Get All Progress
+- Get All Progress:
 GET /api/progress/
-- Get Single Progress
+- Get Single Progress:
 GET /api/progress/<progress_id>/
-- Edit Progress
+- Edit Progress:
 PUT /api/progress/<progress_id>/
-- Delete Progress
+- Delete Progress:
 DELETE /api/progress/<progress_id>/
 
 ## 📝 Reviews
-- Add Review
+- Add Review:
 POST /api/reviews/
-- Get All Reviews
+- Get All Reviews:
 GET /api/reviews/
-- Get Single Review
+- Get Single Review:
 GET /api/reviews/<review_id>/
-- Edit Review
+- Edit Review:
 PUT /api/reviews/<review_id>/
-- Delete Review
+- Delete Review:
 DELETE /api/reviews/<review_id>/
 
 ## 🔒 Notes

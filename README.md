@@ -27,53 +27,77 @@ This project is a Django REST Framework-based backend API designed for managing 
 - POST	/login/	Login a user
 - GET	/logout/	Logout user session
 
-## 📘 Courses
-- Method	Endpoint	Description
-- POST	/courses/	Add a new course
-- GET	/courses/	Get all courses
-- GET	/courses/<id>/	Get a single course
-- PUT	/courses/<id>/	Edit a course
-- DELETE	/courses/<id>/	Delete a course
+## 🎓 Courses
+- Add Course
+POST /api/courses/
+- Get All Courses
+GET /api/courses/
+- Get Single Course
+GET /api/courses/<course_id>/
+- Edit Course
+PUT /api/courses/<course_id>/
+- Delete Course
+DELETE /api/courses/<course_id>/
 
-## 👩‍🏫 Teachers
-- Method	Endpoint	Description
-- POST	/teachers/	Add a new teacher
-- GET	/teachers/	Get all teachers
-- GET	/teachers/<id>/	Get a single teacher
-- PUT	/teachers/<id>/	Edit a teacher
-- DELETE	/teachers/<id>/	Delete a teacher
+## 👨‍🏫 Teachers
+- Add Teacher
+POST /api/teachers/
+- Get All Teachers
+GET /api/teachers/
+- Get Single Teacher
+GET /api/teachers/<teacher_id>/
+- Edit Teacher
+PUT /api/teachers/<teacher_id>/
+- Delete Teacher
+DELETE /api/teachers/<teacher_id>/
 
-## 👨‍🎓 Students
-- Method	Endpoint	Description
-- POST	/students/	Add a new student
-- GET	/students/	Get all students
-- GET	/students/<id>/	Get a single student
-- PUT	/students/<id>/	Edit a student
-- DELETE	/students/<id>/	Delete a student
+## 🧑‍🎓 Students
+- Add Student
+POST /api/students/
+- Get All Students
+GET /api/students/
+- Get Single Student
+GET /api/students/<student_id>/
+- Edit Student
+PUT /api/students/<student_id>/
+- Delete Student
+DELETE /api/students/<student_id>/
 
-## 📝 Enrollment
-- Method	Endpoint	Description
-- POST	/enrollments/	Enroll a student
-- GET	/enrollments/	Get all enrollments
-- GET	/enrollments/<id>/	Get a single enrollment
-- PUT	/enrollments/<id>/	Edit an enrollment
-- DELETE	/enrollments/<id>/	Delete an enrollment
+## 📚 Enrollments
+- Add Enrollment
+POST /api/enrollments/
+- Get All Enrollments
+GET /api/enrollments/
+- Get Single Enrollment
+GET /api/enrollments/<enrollment_id>/
+- Edit Enrollment
+PUT /api/enrollments/<enrollment_id>/
+- Delete Enrollment
+DELETE /api/enrollments/<enrollment_id>/
 
-## 📊 Progress
-- Method	Endpoint	Description
-- POST	/progress/	Add student progress
-- GET	/progress/	Get all progress records
-- GET	/progress/<id>/	Get a single progress
-- PUT	/progress/<id>/	Edit progress record
-- DELETE	/progress/<id>/	Delete progress
+## 📈 Progress
+- Add Progress
+POST /api/progress/
+- Get All Progress
+GET /api/progress/
+- Get Single Progress
+GET /api/progress/<progress_id>/
+- Edit Progress
+PUT /api/progress/<progress_id>/
+- Delete Progress
+DELETE /api/progress/<progress_id>/
 
-## 🌟 Reviews
-- Method	Endpoint	Description
-- POST	/reviews/	Add a course review
-- GET	/reviews/	Get all reviews
-- GET	/reviews/<id>/	Get a single review
-- PUT	/reviews/<id>/	Edit a review
-- DELETE	/reviews/<id>/	Delete a review
+## 📝 Reviews
+- Add Review
+POST /api/reviews/
+- Get All Reviews
+GET /api/reviews/
+- Get Single Review
+GET /api/reviews/<review_id>/
+- Edit Review
+PUT /api/reviews/<review_id>/
+- Delete Review
+DELETE /api/reviews/<review_id>/
 
 ## 🔒 Notes
 - Ensure you configure authentication (e.g., token or session-based) for secure production use.

@@ -12,92 +12,85 @@ This project is a Django REST Framework-based backend API designed for managing 
 - Course Reviews Management
 - Clean, RESTful API architecture
 
-## 🛠️ Technologies Used
-- Python 3.x
-- Django
-- Django REST Framework
-- SQLite (default for development)
+## 🛠️ Tech Stack
+| Layer       | Technology                                          |
+| ----------- | --------------------------------------------------- |
+| Language    | Python 3.x                                          |
+| Framework   | Django, Django REST Framework                       |
+| Database    | SQLite (for development)                            |
+| Auth System | Session or Token-based (recommended for production) |
+
 
 ## 📦 API Endpoints
 - Below are some of the available endpoints:
 
 ## 🔐 Auth
-- Method	Endpoint	Description
-- POST	/register/	Register a user
-- POST	/login/	Login a user
-- GET	/logout/	Logout user session
+| Method | Endpoint     | Description      |
+| ------ | ------------ | ---------------- |
+| POST   | `/register/` | Register a user  |
+| POST   | `/login/`    | Log in a user    |
+| GET    | `/logout/`   | Log out the user |
+
 
 ## 🎓 Courses
-- Add Course:
-POST /api/courses/
-- Get All Courses:
-GET /api/courses/
-- Get Single Course:
-GET /api/courses/<course_id>/
-- Edit Course:
-PUT /api/courses/<course_id>/
-- Delete Course:
-DELETE /api/courses/<course_id>/
+| Method | Endpoint             | Description       |
+| ------ | -------------------- | ----------------- |
+| POST   | `/api/courses/`      | Add a new course  |
+| GET    | `/api/courses/`      | List all courses  |
+| GET    | `/api/courses/<id>/` | Get single course |
+| PUT    | `/api/courses/<id>/` | Update a course   |
+| DELETE | `/api/courses/<id>/` | Delete a course   |
+
 
 ## 👨‍🏫 Teachers
-- Add Teacher:
-POST /api/teachers/
-- Get All Teachers:
-GET /api/teachers/
-- Get Single Teacher:
-GET /api/teachers/<teacher_id>/
-- Edit Teacher:
-PUT /api/teachers/<teacher_id>/
-- Delete Teacher:
-DELETE /api/teachers/<teacher_id>/
+| Method | Endpoint              | Description        |
+| ------ | --------------------- | ------------------ |
+| POST   | `/api/teachers/`      | Add a teacher      |
+| GET    | `/api/teachers/`      | List all teachers  |
+| GET    | `/api/teachers/<id>/` | Get single teacher |
+| PUT    | `/api/teachers/<id>/` | Update a teacher   |
+| DELETE | `/api/teachers/<id>/` | Delete a teacher   |
+
 
 ## 🧑‍🎓 Students
-- Add Student:
-POST /api/students/
-- Get All Students:
-GET /api/students/
-- Get Single Student:
-GET /api/students/<student_id>/
-- Edit Student:
-PUT /api/students/<student_id>/
-- Delete Student:
-DELETE /api/students/<student_id>/
+| Method | Endpoint              | Description        |
+| ------ | --------------------- | ------------------ |
+| POST   | `/api/students/`      | Add a student      |
+| GET    | `/api/students/`      | List all students  |
+| GET    | `/api/students/<id>/` | Get single student |
+| PUT    | `/api/students/<id>/` | Update a student   |
+| DELETE | `/api/students/<id>/` | Delete a student   |
+
 
 ## 📚 Enrollments
-- Add Enrollment:
-POST /api/enrollments/
-- Get All Enrollments:
-GET /api/enrollments/
-- Get Single Enrollment:
-GET /api/enrollments/<enrollment_id>/
-- Edit Enrollment:
-PUT /api/enrollments/<enrollment_id>/
-- Delete Enrollment:
-DELETE /api/enrollments/<enrollment_id>/
+| Method | Endpoint                 | Description          |
+| ------ | ------------------------ | -------------------- |
+| POST   | `/api/enrollments/`      | Add an enrollment    |
+| GET    | `/api/enrollments/`      | List all enrollments |
+| GET    | `/api/enrollments/<id>/` | Get one enrollment   |
+| PUT    | `/api/enrollments/<id>/` | Update enrollment    |
+| DELETE | `/api/enrollments/<id>/` | Delete enrollment    |
+
 
 ## 📈 Progress
-- Add Progress:
-POST /api/progress/
-- Get All Progress:
-GET /api/progress/
-- Get Single Progress:
-GET /api/progress/<progress_id>/
-- Edit Progress:
-PUT /api/progress/<progress_id>/
-- Delete Progress:
-DELETE /api/progress/<progress_id>/
+| Method | Endpoint              | Description         |
+| ------ | --------------------- | ------------------- |
+| POST   | `/api/progress/`      | Add progress        |
+| GET    | `/api/progress/`      | List progress       |
+| GET    | `/api/progress/<id>/` | Get single progress |
+| PUT    | `/api/progress/<id>/` | Update progress     |
+| DELETE | `/api/progress/<id>/` | Delete progress     |
+
 
 ## 📝 Reviews
-- Add Review:
-POST /api/reviews/
-- Get All Reviews:
-GET /api/reviews/
-- Get Single Review:
-GET /api/reviews/<review_id>/
-- Edit Review:
-PUT /api/reviews/<review_id>/
-- Delete Review:
-DELETE /api/reviews/<review_id>/
+| Method | Endpoint             | Description      |
+| ------ | -------------------- | ---------------- |
+| POST   | `/api/reviews/`      | Add a review     |
+| GET    | `/api/reviews/`      | List all reviews |
+| GET    | `/api/reviews/<id>/` | Get a review     |
+| PUT    | `/api/reviews/<id>/` | Update a review  |
+| DELETE | `/api/reviews/<id>/` | Delete a review  |
+
 
 ## 🔒 Notes
 - Ensure you configure authentication (e.g., token or session-based) for secure production use.
